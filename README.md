@@ -1,11 +1,10 @@
 # Open CV : Object detection using Python
 ## Introduction:
 ### Object detection is an important task, yet challenging vision task. It is a critical part of many applications such as image search, image auto-annotation and scene understanding, object tracking. Moving object tracking of video image sequences was one of the most important subjects in computer vision. It had already been applied in many computer vision fields, such as smart video surveillance (Arun Hampapur 2005), artificial intelligence, military guidance, safety detection and robot navigation, medical and biological application. In recent years, a number of successful single-object tracking system appeared, but in the presence of several objects, object detection becomes difficult and when objects are fully or partially occluded, they are obtruded from the human vision which further increases the problem of detection.. The proposed MLP based object tracking system is made robust by an optimum selection of unique features and also by implementing the Adaboost strong classification method.
-## Input & Output:
+## Input :
 ### This is a sample image we feed to the algorithm and expect our algorithm to detect and identify objects in the image and label them according to the class assigned to it.
 ![image](https://github.com/user-attachments/assets/a6911ea7-66c7-45d3-8edd-7daffbb60b41)
-### As expected our algorithm identifies the objects by its classes ans assigns each object by its tag and has dimensions on detected image.
-![image](https://github.com/user-attachments/assets/eee84fa2-1549-429d-bea5-eafb594e58ee)
+
 
 ### ImageAI provides many more features useful for customization and production capable deployments for object detection tasks. Some of the features supported are :
 
@@ -137,6 +136,10 @@ def main():
 if __name__ == '__main__': 
     main()
 ```
+## Output :
+
+### As expected our algorithm identifies the objects by its classes ans assigns each object by its tag and has dimensions on detected image.
+![image](https://github.com/user-attachments/assets/eee84fa2-1549-429d-bea5-eafb594e58ee)
 
 ## Summary:
 ### The object detection report encompasses various stages, starting with data collection and concluding with model deployment and maintenance. The process involves gathering a diverse dataset, annotating images, and preprocessing data for optimal performance. Model selection, training, validation, and testing follow, ensuring a robust and accurate detection model. Post-processing techniques refine results, and integration into the target system precedes optimization for efficiency. Deployment in the intended environment marks a crucial stage, with ongoing monitoring and maintenance to adapt to evolving data patterns. The report underscores the comprehensive methodology, emphasizing the significance of each step in achieving successful object detection.
